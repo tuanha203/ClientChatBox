@@ -1,0 +1,47 @@
+.joinOuterContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+
+}
+
+
+.joinInnerContainer{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    text-align: center;
+    height: 300px;
+    background-color: rgb(8,122,234);
+    border-radius: 10px;
+    padding: 12px;
+}
+
+.heading{
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.joinInput{
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+
+.mt-3{
+    margin-top: 50px;
+}
+
+.mt-1{
+    margin-top: 20px;
+}
+
+
+.button{
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}

@@ -1,0 +1,60 @@
+.sendMessage {
+  padding: 12px 20px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: rgb(8, 122, 234);
+  color: white;
+}
+
+.inputInnerContainer {
+  display: flex;
+  position: relative;
+}
+
+.inputMessage {
+  flex-grow: 1;
+  font-size: 16px;
+  padding: 8px;
+  border: none;
+  outline: none;
+  background-color: rgb(228, 230, 235);
+  border-bottom-left-radius: 10px;
+
+}
+
+.inputInnerContainer button {
+  font-size: 15px;
+  font-weight: 600;
+  border-bottom-right-radius: 10px;
+
+}
+
+/*  css cho Emoij */
+.picker{
+  width: 35px;
+  
+  left: 230px;
+  cursor: pointer;
+}
+
+.pickerWrap{
+  background-color: rgb(228,230,235);
+}
+
+.emoji-picker-react{
+  position: absolute !important;
+  top: -180px;
+  width: 200px !important;
+  height: 200px !important;
+  box-shadow: none !important;
+}
+
+.emoji-picker-react .content-wrapper::before{
+  content: '';
+  display: none !important;
+
+}
+.emoji-picker-react .button{
+  cursor: pointer;
+}

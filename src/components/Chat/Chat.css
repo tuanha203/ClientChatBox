@@ -1,0 +1,25 @@
+.chatInnerContainer{
+    width: 350px;
+   
+}
+
+.chatOuterContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transform: translate(80px, 80px);
+
+}
+
+.descriptionRoomChat{
+    margin-left: 20px;
+    color: white;
+}
+
+.listUsersInRoom{
+    margin-left: 16px;
+}
+
+.listUsersInRoom li{
+    margin-top: 10px;
+}

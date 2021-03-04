@@ -1,0 +1,28 @@
+.inforChatBox{
+    width: 100%;
+    background-color: #087AEA;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.nameRoom{
+    margin-left: 8px;
+}
+
+.onlineIcon{
+    width: 8px;
+    height: 8px;
+    margin-left: 5px;
+}
+
+.closeIcon{
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: 10px;
+}

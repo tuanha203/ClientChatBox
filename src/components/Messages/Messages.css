@@ -1,0 +1,76 @@
+.messagesContainer {
+  height: 300px;
+  background-color: white;
+}
+
+.messageContainer {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-left: auto;
+  margin-right: 5px;
+}
+
+.messageContainer .name {
+  position: relative;
+  font-size: 13px;
+  right: 3px;
+  align-self: center;
+  transform: translate(0, 50%);
+}
+
+.messageContainer.other {
+  display: flex;
+  flex-direction: row;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.messageContainer.other .name {
+  position: relative;
+  font-size: 13px;
+  left: 3px;
+  right: 0;
+  align-self: center;
+}
+
+.message {
+  text-align: left;
+  background-color: rgb(228, 230, 235);
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 3px;
+  margin-bottom: 6px;
+  max-width: 160px;
+}
+
+.noSpace {
+  white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
+  white-space: -webkit-pre-wrap; /* Chrome & Safari */
+  white-space: -pre-wrap; /* Opera 4-6 */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  white-space: pre-wrap; /* CSS3 */
+  word-wrap: break-word; /* Internet Explorer 5.5+ */
+  word-break: break-all;
+  white-space: normal;
+}
+
+.messageContainer .message {
+  background-color: #087aea;
+  color: white;
+}
+
+.messageContainer.other .message {
+  background-color: rgb(228, 230, 235);
+  color: black;
+}
+
+.admin {
+  font-style: italic;
+}
+
+.name {
+  max-width: 150px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
